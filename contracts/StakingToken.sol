@@ -5,11 +5,11 @@ import "openzeppelin-solidity/contracts/math/SafeMath.sol";
 import "openzeppelin-solidity/contracts/ownership/Ownable.sol";
 
 /**
- * @title Staking Token (STK)
+ * @title cnExodus (CNEXVX)
  * @author Alberto Cuesta Canada
  * @notice Implements a basic ERC20 staking token with incentive distribution.
  */
-contract StakingToken is ERC20, Ownable {
+contract cnExodus is ERC20, Ownable {
     using SafeMath for uint256;
 
     /**
@@ -28,7 +28,7 @@ contract StakingToken is ERC20, Ownable {
     mapping(address => uint256) internal rewards;
 
     /**
-     * @notice The constructor for the Staking Token.
+     * @notice The constructor for cnExodus.
      * @param _owner The address to receive all tokens on construction.
      * @param _supply The amount of tokens to mint on construction.
      */
